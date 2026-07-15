@@ -164,7 +164,7 @@ export const programs = [
       'Giao tiếp tự tin hơn với người lạ',
     ],
     activityImages: [
-      'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=600&q=80',
+      'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80',
       'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80',
     ],
     programFaqs: [
@@ -213,8 +213,8 @@ export const programs = [
       'Tham gia tích cực trong hoạt động nhóm',
     ],
     activityImages: [
-      'https://images.unsplash.com/photo-1517457373614-b7152f800fd1?auto=format&fit=crop&w=600&q=80',
-      'https://images.unsplash.com/photo-1502134249126-9f3755a50d78?auto=format&fit=crop&w=600&q=80',
+      'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80',
+      'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80',
     ],
     programFaqs: [
       { question: 'trẻ có xã hội phobic, cách nào hạn chế?', answer: 'Chúng tôi bắt đầu từ từ, từ 1-1 hoặc nhóm nhỏ để trẻ cảm thấy an toàn. Không có áp lực, chỉ tạo cơ hội tương tác tự nhiên.' },
@@ -262,8 +262,8 @@ export const programs = [
       'Tự tin chơi các hoạt động vận động',
     ],
     activityImages: [
-      'https://images.unsplash.com/photo-1551632786-de41ec16a83a?auto=format&fit=crop&w=600&q=80',
-      'https://images.unsplash.com/photo-1540575467063-178f50002cbc?auto=format&fit=crop&w=600&q=80',
+      'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80',
+      'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80',
     ],
     programFaqs: [
       { question: 'trẻ 2 tuổi chưa đi được, có còn kịp không?', answer: 'Được. Phát triển vận động có sự khác biệt giữa các trẻ. Khóa học cung cấp luyện tập nhắm mục tiêu để trẻ đạt các mốc phát triển nhanh hơn.' },
