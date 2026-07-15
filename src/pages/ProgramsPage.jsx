@@ -53,7 +53,7 @@ function ProgramsPage() {
       <PageHero
         eyebrow="Chương trình hỗ trợ phát triển"
         title="Khám phá chương trình phù hợp với từng trẻ"
-        description="Nghe Con Lớn cung cấp 3 chương trình hỗ trợ chuyên sâu giúp trẻ từ 0–6 tuổi phát triển toàn diện. Mỗi chương trình được thiết kế cá nhân hóa với sự đồng hành của chuyên gia."
+        description="NGHE CON LỚN mang đến các lộ trình hỗ trợ được thiết kế theo từng nhu cầu phát triển của trẻ từ 0–6 tuổi. Mỗi lộ trình được cá nhân hóa và đồng hành bởi đội ngũ chuyên gia, giúp phụ huynh lựa chọn giải pháp phù hợp cho con"
         actions={[
           <AppButton key="survey" as={Link} to="/survey" variant="primary" size="lg">Khảo sát ngay</AppButton>,
           <AppButton key="contact" as={Link} to="/contact" variant="outline-primary" size="lg">Đăng ký tư vấn</AppButton>,
@@ -242,7 +242,7 @@ function ProgramsPage() {
                       <div className="d-flex justify-content-between">
                         <span className="text-muted">Tư vấn:</span>
                         <span className="fw-semibold">
-                          {program.consultation ? '✓ Có' : '✗ Không'}
+                          {program.companion}
                         </span>
                       </div>
                     </div>

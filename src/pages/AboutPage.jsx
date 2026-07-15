@@ -33,7 +33,7 @@ function AboutPage() {
         <Container>
           <div className="text-center mb-5">
             <p className="text-primary fw-semibold mb-2">Giá trị cốt lõi</p>
-            <h2 className="h3 fw-bold">Những giá trị hướng dẫn chúng tôi</h2>
+            <h2 className="h3 fw-bold">Những giá trị tạo nên NGHE CON LỚN</h2>
           </div>
           <Row className="g-4">
             {coreValues.map((value) => (
@@ -54,7 +54,7 @@ function AboutPage() {
         <Container>
           <div className="text-center mb-5">
             <p className="text-primary fw-semibold mb-2">Sứ mệnh & Tầm nhìn</p>
-            <h2 className="h3 fw-bold">Những gì chúng tôi muốn đạt được</h2>
+            <h2 className="h3 fw-bold">Định hướng phát triển của Nghe Con Lớn</h2>
           </div>
           <Row className="g-4">
             <Col lg={6}>
