@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react';
 import { Container, Row, Col, Card, Form, Button, Alert, Badge } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import AppInput from '../components/ui/AppInput';
-import BrandMascot from '../components/ui/BrandMascot';
 
 function LoginPage() {
   const navigate = useNavigate();
@@ -130,9 +129,6 @@ function LoginPage() {
                 <p className="text-muted mb-0">
                   Bạn có thể quay lại kết quả khảo sát, xem chương trình phù hợp hoặc tiếp tục đăng ký tư vấn mà không cần bắt đầu lại từ đầu.
                 </p>
-              </div>
-              <div className="mb-4">
-                <BrandMascot mood="welcome" compact />
               </div>
 
               {status === 'error' && (

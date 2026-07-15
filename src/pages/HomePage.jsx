@@ -2,7 +2,6 @@ import { Container, Row, Col, Accordion, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import AppCard from '../components/ui/AppCard';
 import AppBadge from '../components/ui/AppBadge';
-import BrandMascot from '../components/ui/BrandMascot';
 import PageHero from '../components/layout/PageHero';
 import {
   expertTeam,
@@ -28,12 +27,6 @@ function HomePage() {
           <Button key="programs" as={Link} to="/programs" variant="outline-primary">Xem chương trình</Button>,
           <Button key="courses" as={Link} to="/courses" variant="outline-primary">Xem khóa học</Button>,
         ]}
-        highlight={
-          <AppCard title="Tư vấn 1:1" subtitle="Mỗi trẻ có một lộ trình riêng" className="border-0">
-            <p className="text-muted small mb-2">Phụ huynh nhận được phản hồi rõ ràng và lời khuyên thực tế ngay sau buổi đầu tiên.</p>
-            <BrandMascot mood="guide" />
-          </AppCard>
-        }
         image="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80"
         imageAlt="Trẻ em và phụ huynh trong môi trường học tập"
       >

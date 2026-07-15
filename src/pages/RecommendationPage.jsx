@@ -2,7 +2,6 @@ import { Container, Row, Col, Card, Button, Alert, Badge } from 'react-bootstrap
 import { Link, useLocation } from 'react-router-dom';
 import { featuredPrograms } from '../data/content';
 import { useConsultation } from '../context/ConsultationContext';
-import BrandMascot from '../components/ui/BrandMascot';
 
 function RecommendationPage() {
   const location = useLocation();
@@ -42,7 +41,7 @@ function RecommendationPage() {
                 Dựa trên những thông tin bạn vừa chia sẻ, chúng mình đã sàng lọc một số chương trình phù hợp nhất để trẻ có thể phát triển tự tin hơn.
               </p>
               <div className="d-flex justify-content-center mt-4">
-                <BrandMascot mood="reassure" />
+                <span className="text-muted small">AI đồng hành luôn sẵn sàng giải thích kết quả và gợi ý bước tiếp theo.</span>
               </div>
             </Col>
           </Row>

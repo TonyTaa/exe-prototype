@@ -3,7 +3,6 @@ import { useNavigate, Link } from 'react-router-dom';
 import { Container, Row, Col, Card, Form, ProgressBar, Button, Alert, Badge } from 'react-bootstrap';
 import AppInput from '../components/ui/AppInput';
 import AppSelect from '../components/ui/AppSelect';
-import BrandMascot from '../components/ui/BrandMascot';
 import { concernOptions, impactLevels, learningModes, regions, symptomOptions } from '../data/content';
 import { useConsultation } from '../context/ConsultationContext';
 import PageHero from '../components/layout/PageHero';
@@ -115,7 +114,7 @@ function SurveyPage() {
   ];
 
   return (
-    <div className="section-shell bg-light-subtle">
+    <div>
       <PageHero
         eyebrow="Khảo sát đồng hành cùng trẻ"
         title="Khảo sát để nhận lộ trình phù hợp cho trẻ"
@@ -123,7 +122,8 @@ function SurveyPage() {
         actions={[
           <Button key="contact" as={Link} to="/contact" variant="outline-primary">Liên hệ tư vấn</Button>,
         ]}
-        highlight={<div className="d-flex justify-content-center"><BrandMascot mood={step === 0 ? 'support' : step === steps.length - 1 ? 'reassure' : 'guide'} compact /></div>}
+        image="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80"
+        imageAlt="Trẻ em và phụ huynh trong môi trường học tập"
       />
       <Container>
         <Row className="justify-content-center text-center mb-5">

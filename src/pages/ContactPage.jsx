@@ -4,7 +4,6 @@ import { Container, Row, Col, Card, Form, Button, Alert, Badge, Accordion } from
 import { useConsultation } from '../context/ConsultationContext';
 import { siteConfig, contactInfo } from '../data/content';
 import AppInput from '../components/ui/AppInput';
-import BrandMascot from '../components/ui/BrandMascot';
 import PageHero from '../components/layout/PageHero';
 
 function ContactPage() {
@@ -215,7 +214,7 @@ function ContactPage() {
   };
 
   return (
-    <div className="section-shell bg-light-subtle">
+    <div>
       <PageHero
         eyebrow={`Liên hệ với ${siteConfig.name}`}
         title="Chúng tôi luôn sẵn sàng đồng hành cùng gia đình bạn"
@@ -224,22 +223,23 @@ function ContactPage() {
           <Button key="mail" href={`mailto:${contactInfo.email}`} as="a" variant="primary" size="lg">Đặt lịch tư vấn</Button>,
           <Button key="call" href={`tel:${contactInfo.phone.replace(/\D/g, '')}`} as="a" variant="outline-primary" size="lg">Gọi ngay</Button>,
         ]}
-        highlight={
-          <div className="d-flex flex-column gap-2">
-            {trustBadges.map((badge) => (
-              <Badge key={badge.label} bg="light" text="dark" className="px-3 py-2 rounded-pill">
-                <span className="me-2">{badge.icon}</span>
-                {badge.label}
-              </Badge>
-            ))}
-            <BrandMascot mood={sourcedFromSurvey ? 'confirm' : 'guide'} />
-          </div>
-        }
         image="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80"
         imageAlt="Phụ huynh và chuyên gia đồng hành"
       />
       <Container>
         <section className="mb-5 fade-in-up">
+          <Card className="border-0 rounded-4 shadow-soft mb-4">
+            <Card.Body>
+              <p className="text-primary fw-semibold mb-2">Hỗ trợ trực tiếp</p>
+              <h2 className="h4 fw-bold mb-2">Nếu AI không giải quyết được, bạn vẫn có thể liên hệ chuyên gia ngay</h2>
+              <p className="text-muted mb-3">AI của chúng tôi có thể gợi ý nhanh, nhưng nếu bạn cần tư vấn sâu hơn, hãy sử dụng các kênh sau.</p>
+              <div className="d-flex flex-wrap gap-2">
+                <Button as="a" href="/contact" variant="primary">Đăng ký tư vấn</Button>
+                <Button as="a" href={`https://zalo.me/${phoneDigits}`} variant="outline-primary">Chat Zalo</Button>
+                <Button as="a" href={`tel:${phoneDigits}`} variant="outline-primary">Gọi Hotline</Button>
+              </div>
+            </Card.Body>
+          </Card>
           <Row className="g-3">
             {contactCards.map((card) => (
               <Col md={6} lg={4} key={card.title}>
@@ -273,7 +273,7 @@ function ContactPage() {
                   {status === 'loading' && (
                     <div className="rounded-4 border p-4 bg-light-subtle">
                       <div className="d-flex justify-content-center mb-3">
-                        <BrandMascot mood="thinking" compact />
+                        <span className="text-primary fw-semibold">Đang xử lý thông tin...</span>
                       </div>
                       <div className="placeholder-glow">
                         <span className="placeholder col-7 mb-3" />
@@ -380,7 +380,7 @@ function ContactPage() {
                   {status === 'success' && (
                     <div className="rounded-4 border border-success-subtle bg-success-subtle p-4">
                       <div className="d-flex justify-content-center mb-3">
-                        <BrandMascot mood="confirm" compact />
+                        <span className="text-success fs-1">✓</span>
                       </div>
                       <div className="d-flex align-items-center gap-2 text-success fw-semibold mb-3">
                         <span>✓</span>

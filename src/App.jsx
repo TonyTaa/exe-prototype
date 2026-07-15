@@ -3,7 +3,7 @@ import './App.css';
 import AppRoutes from './routes/AppRoutes';
 import ErrorBoundary from './components/ui/ErrorBoundary';
 import PageSkeleton from './components/ui/PageSkeleton';
-import FloatingContactBar from './components/ui/FloatingContactBar';
+import AICompanion from './components/ui/AICompanion';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Suspense fallback={<PageSkeleton />}>
         <AppRoutes />
       </Suspense>
-      <FloatingContactBar />
+      <AICompanion />
     </ErrorBoundary>
   );
 }

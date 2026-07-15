@@ -1,11 +1,10 @@
 import { Card, Placeholder } from 'react-bootstrap';
-import BrandMascot from './BrandMascot';
 
 function PageSkeleton() {
   return (
     <div className="py-5">
       <div className="d-flex justify-content-center mb-4">
-        <BrandMascot mood="thinking" compact />
+        <span className="fs-1">⌛</span>
       </div>
       <Placeholder as="p" animation="wave" className="mb-3" style={{ width: '30%' }} />
       <Placeholder as="h3" animation="wave" className="mb-3" style={{ width: '50%' }} />
