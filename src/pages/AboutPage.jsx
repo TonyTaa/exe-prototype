@@ -87,7 +87,7 @@ function AboutPage() {
         <Container>
           <div className="text-center mb-5">
             <p className="text-primary fw-semibold mb-2">Các nhóm trẻ được hỗ trợ</p>
-            <h2 className="h3 fw-bold">Những lĩnh vực chúng tôi chuyên sâu</h2>
+            <h2 className="h3 fw-bold">Đồng hành theo từng nhu cầu phát triển</h2>
           </div>
           <Row className="g-4">
             {supportGroupsDetailed.map((group) => (
@@ -143,7 +143,7 @@ function AboutPage() {
         <Container>
           <div className="text-center mb-5">
             <p className="text-primary fw-semibold mb-2">Vì sao chọn Nghe Con Lớn</p>
-            <h2 className="h3 fw-bold">Những lợi ích bạn sẽ nhận được</h2>
+            <h2 className="h3 fw-bold">Giá trị đồng hành cùng mỗi gia đình</h2>
           </div>
           <Row className="g-4">
             {benefits.map((benefit) => (
