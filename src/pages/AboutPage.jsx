@@ -25,7 +25,7 @@ function AboutPage() {
           <Button key="survey" as={Link} to="/survey" variant="primary">Khảo sát miễn phí</Button>,
           <Button key="programs" as={Link} to="/courses" variant="outline-primary">Xem chương trình</Button>,
         ]}
-        image="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80"
+        image="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80"
         imageAlt="Phụ huynh tương tác với trẻ"
       />
 

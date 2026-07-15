@@ -58,10 +58,10 @@ function ProgramsPage() {
           <AppButton key="survey" as={Link} to="/survey" variant="primary" size="lg">Khảo sát ngay</AppButton>,
           <AppButton key="contact" as={Link} to="/contact" variant="outline-primary" size="lg">Đăng ký tư vấn</AppButton>,
         ]}
-        image="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80"
+        image="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80"
         imageAlt="Phụ huynh tương tác với trẻ"
       >
-        <div className="row g-3 mt-30">
+        <div className="row g-3 mt-30 mt-4">
           {trustBadges.map((badge) => (
             <div key={badge.label} className="col-auto">
               <div className="playful-pill">

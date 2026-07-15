@@ -118,32 +118,38 @@ function ContactPage() {
     },
   ];
 
-  const faqItems = [
-    {
-      question: 'Khi nào nên đưa trẻ đi đánh giá?',
-      answer: 'Nếu trẻ có dấu hiệu chậm nói, khó hòa nhập, hoặc phụ huynh cảm thấy có điều bất thường so với các bạn cùng lứa, nên đưa trẻ đi đánh giá sớm để có hướng hỗ trợ phù hợp.',
-    },
-    {
-      question: 'trẻ chậm nói có nên can thiệp sớm?',
-      answer: 'Có. Can thiệp sớm giúp trẻ phát triển tốt hơn ở nhiều lĩnh vực, đặc biệt là ngôn ngữ và giao tiếp.',
-    },
-    {
-      question: 'Có thể học online không?',
-      answer: 'Có. Một số chương trình có thể được triển khai trực tuyến hoặc kết hợp giữa trực tiếp và online tùy nhu cầu của gia đình.',
-    },
-    {
-      question: 'Có học thử không?',
-      answer: 'Thông thường chúng tôi có thể sắp xếp buổi trao đổi đầu tiên để phụ huynh hiểu rõ hơn về lộ trình phù hợp trước khi quyết định.',
-    },
-    {
-      question: 'Tư vấn có mất phí không?',
-      answer: 'Buổi tư vấn ban đầu thường không phát sinh chi phí, tùy vào từng chương trình và quy định hiện hành.',
-    },
-    {
-      question: 'Có thể thay đổi lịch hẹn không?',
-      answer: 'Được. Nếu cần đổi lịch, phụ huynh chỉ cần báo trước để đội ngũ hỗ trợ sắp xếp lại thuận tiện hơn.',
-    },
-  ];
+ const faqItems = [
+  {
+    question: 'Mỗi trẻ có cần một lộ trình phát triển riêng không?',
+    answer:
+      'Có. Mỗi trẻ có tốc độ phát triển và nhu cầu khác nhau. Vì vậy, việc lựa chọn chương trình và phương pháp phù hợp sẽ giúp trẻ phát huy tốt khả năng của mình thay vì áp dụng cùng một lộ trình cho tất cả.',
+  },
+  {
+    question: 'Nếu tôi chưa chắc con mình có gặp khó khăn thì sao?',
+    answer:
+      'Bạn vẫn có thể thực hiện bài khảo sát. Đây là cách giúp phụ huynh có thêm góc nhìn về quá trình phát triển của trẻ và phát hiện sớm những dấu hiệu cần quan tâm, ngay cả khi trẻ chưa có biểu hiện rõ ràng.',
+  },
+  {
+    question: 'Trẻ không gặp khó khăn có sử dụng được nền tảng không?',
+    answer:
+      'Có. Nghe Con Lớn không chỉ dành cho trẻ gặp khó khăn mà còn hỗ trợ phụ huynh theo dõi các mốc phát triển, phát hiện sớm những thay đổi và đồng hành cùng con trong những năm đầu đời.',
+  },
+  {
+    question: 'Chuyên gia sẽ hỗ trợ phụ huynh như thế nào?',
+    answer:
+      'Sau khi tiếp nhận thông tin, chuyên gia sẽ tư vấn dựa trên tình trạng và nhu cầu của từng trẻ, đồng thời đưa ra những gợi ý, định hướng và giải pháp phù hợp để phụ huynh đồng hành cùng con hiệu quả hơn.',
+  },
+  {
+    question: 'Tôi có thể đồng hành cùng con tại nhà không?',
+    answer:
+      'Hoàn toàn có thể. Bên cạnh các chương trình chuyên môn, nền tảng còn cung cấp học liệu, hoạt động gợi ý và những hướng dẫn đơn giản để phụ huynh dễ dàng hỗ trợ con ngay tại nhà.',
+  },
+  {
+    question: 'Nghe Con Lớn khác gì so với các trung tâm truyền thống?',
+    answer:
+      'Nghe Con Lớn không chỉ giới thiệu chương trình phù hợp mà còn giúp phụ huynh đánh giá nhu cầu phát triển của trẻ, kết nối với chuyên gia, theo dõi lộ trình phát triển và tham gia cộng đồng đồng hành trong suốt hành trình nuôi dạy con.',
+  },
+];
 
   const consultationSteps = [
     'Gửi thông tin',

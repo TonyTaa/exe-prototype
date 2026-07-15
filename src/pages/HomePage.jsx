@@ -21,7 +21,7 @@ function HomePage() {
       <PageHero
         eyebrow={siteConfig.tagline}
         title="Đồng hành cùng mỗi bước phát triển của trẻ"
-        description="Chúng tôi mang đến các chương trình, công cụ và sự đồng hành phù hợp cho trẻ từ 0 đến 6 tuổi đang gặp khó khăn về ngôn ngữ, giao tiếp xã hội hoặc vận động."
+        description="NGHE CON LỚN đồng hành cùng phụ huynh trong hành trình phát hiện sớm, đánh giá và hỗ trợ sự phát triển của trẻ từ 0–6 tuổi thông qua công nghệ AI, chuyên gia và lộ trình cá nhân hóa."
         actions={[
           <Button key="survey" as={Link} to="/survey" variant="primary">Bắt đầu khảo sát</Button>,
           <Button key="programs" as={Link} to="/programs" variant="outline-primary">Xem chương trình</Button>,
@@ -30,7 +30,7 @@ function HomePage() {
         image="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80"
         imageAlt="Trẻ em và phụ huynh trong môi trường học tập"
       >
-        <div className="d-flex flex-wrap gap-2">
+        <div className="d-flex flex-wrap gap-2 mt-4">
           {homeHighlights.map((item) => (
             <AppBadge key={item} variant="soft" className="text-dark fw-semibold">
               {item}

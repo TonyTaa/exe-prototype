@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'Nghe Con Lớn',
-  tagline: 'Hỗ trợ phát triển toàn diện cho trẻ nhỏ từ 0 đến 6 tuổi.',
+  tagline: 'Hiểu con sớm, đồng hành cùng con đúng cách',
   disclaimer:
     'Website mang tính chất tư vấn và giới thiệu chương trình, không thay thế chẩn đoán y khoa.',
   mission: 'Đồng hành cùng phụ huynh hỗ trợ phát triển trẻ nhỏ bằng phương pháp khoa học, cá nhân hóa và tận tâm.',
@@ -88,9 +88,36 @@ export const aboutFaqItems = [
 ];
 
 export const faqItems = [
-  { question: 'Trung tâm có chẩn đoán bệnh không?', answer: 'Không. Chúng tôi chỉ cung cấp tư vấn, giới thiệu chương trình và hỗ trợ phát triển, không thay thế chẩn đoán y khoa.' },
-  { question: 'Mỗi khóa học có bao lâu?', answer: 'Tùy chương trình, thường kéo dài từ 8 đến 12 tuần.' },
-  { question: 'Có cần đăng ký trước không?', answer: 'Có, phụ huynh nên đăng ký trước để trung tâm sắp xếp lịch tư vấn phù hợp.' },
+  {
+    question: 'Website có thay thế việc chẩn đoán của bác sĩ hoặc chuyên gia không?',
+    answer:
+      'Không. Nghe Con Lớn không đưa ra chẩn đoán y khoa. Kết quả khảo sát chỉ mang tính sàng lọc và định hướng ban đầu, giúp phụ huynh hiểu rõ hơn về nhu cầu phát triển của trẻ. Nếu phát hiện dấu hiệu bất thường, hệ thống sẽ khuyến nghị phụ huynh kết nối với chuyên gia để được đánh giá chuyên sâu.',
+  },
+  {
+    question: 'Bài khảo sát mất bao lâu để hoàn thành?',
+    answer:
+      'Phụ huynh chỉ cần khoảng 5–10 phút để hoàn thành bài khảo sát. Sau khi gửi thông tin, hệ thống sẽ phân tích và gợi ý nhóm chương trình cũng như lộ trình phát triển phù hợp với từng trẻ.',
+  },
+  {
+    question: 'Kết quả khảo sát có chính xác không?',
+    answer:
+      'Kết quả được xây dựng dựa trên các tiêu chí phát triển trẻ theo từng độ tuổi và được tham vấn bởi đội ngũ chuyên gia. Tuy nhiên, đây không phải kết luận cuối cùng mà là cơ sở để phụ huynh hiểu con hơn và lựa chọn hướng hỗ trợ phù hợp.',
+  },
+  {
+    question: 'Sau khi nhận kết quả khảo sát, tôi cần làm gì?',
+    answer:
+      'Sau khi hoàn thành khảo sát, phụ huynh sẽ nhận được báo cáo tổng quan và gợi ý chương trình phù hợp. Nếu có nhu cầu, phụ huynh có thể đặt lịch tư vấn với chuyên gia, theo dõi lộ trình phát triển của trẻ và đăng ký các khóa học phù hợp.',
+  },
+  {
+    question: 'Tôi có thể theo dõi sự tiến bộ của con như thế nào?',
+    answer:
+      'Nghe Con Lớn cung cấp lộ trình phát triển cá nhân hóa, giúp phụ huynh theo dõi các mốc phát triển của trẻ, ghi nhận tiến bộ theo từng giai đoạn và nhận các khuyến nghị phù hợp trong suốt quá trình đồng hành.',
+  },
+  {
+    question: 'Nghe Con Lớn phù hợp với những đối tượng nào?',
+    answer:
+      'Nền tảng dành cho phụ huynh có trẻ từ 0–6 tuổi, đặc biệt là những gia đình đang quan tâm đến sự phát triển ngôn ngữ, giao tiếp xã hội, vận động hoặc mong muốn theo dõi và hỗ trợ con ngay từ những năm đầu đời.',
+  },
 ];
 
 export const trustBadges = [
@@ -308,8 +335,30 @@ export const expertTeam = [
 ];
 
 export const testimonials = [
-  { name: 'Chị Minh Anh', text: 'Sau 8 tuần, con tôi tự tin hơn trong giao tiếp. Cảm ơn trung tâm rất nhiều.' },
-  { name: 'Anh Đức', text: 'Chương trình rất phù hợp với độ tuổi của con. Thầy cô nhiệt tình và dễ gần.' },
+  {
+    name: 'Chị Minh Anh',
+    text: 'Sau 8 tuần, con tôi tự tin hơn trong giao tiếp. Cảm ơn trung tâm rất nhiều.',
+  },
+  {
+    name: 'Anh Đức',
+    text: 'Chương trình rất phù hợp với độ tuổi của con. Thầy cô nhiệt tình và dễ gần.',
+  },
+  {
+    name: 'Chị Thu Hà',
+    text: 'Tôi rất yên tâm khi có lộ trình rõ ràng và được hướng dẫn cách đồng hành cùng con mỗi ngày.',
+  },
+  {
+    name: 'Anh Hoàng Nam',
+    text: 'Sau một thời gian tham gia, con chủ động tương tác với mọi người hơn và tự tin khi đến lớp.',
+  },
+  {
+    name: 'Chị Ngọc Lan',
+    text: 'Đội ngũ chuyên gia luôn lắng nghe và giải đáp tận tình. Gia đình tôi đã hiểu con hơn rất nhiều.',
+  },
+  {
+    name: 'Anh Quốc Bảo',
+    text: 'Website dễ sử dụng, bài khảo sát nhanh và các gợi ý chương trình rất phù hợp với tình trạng của con.',
+  },
 ];
 
 export const contactInfo = {
