@@ -268,11 +268,10 @@ function ProgramsPage() {
           <Row className="justify-content-center text-center">
             <Col lg={8}>
               <h2 className="h3 fw-bold mb-4">
-                Không chắc chương trình nào phù hợp với trẻ?
+                Đừng để việc lựa chọn chương trình chỉ dựa vào cảm tính
               </h2>
               <p className="text-muted mb-4">
-                Hoàn thành bài khảo sát miễn phí (10-15 phút) để nhận được gợi ý cá nhân hóa từ các chuyên gia của chúng tôi.
-              </p>
+                NGHE CON LỚN giúp bạn đưa ra lựa chọn phù hợp dựa trên kết quả khảo sát và tư vấn từ chuyên gia              </p>
               <AppButton as={Link} to="/survey" variant="primary" size="lg">
                 Bắt đầu khảo sát
               </AppButton>

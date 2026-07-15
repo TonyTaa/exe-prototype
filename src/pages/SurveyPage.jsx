@@ -117,8 +117,8 @@ function SurveyPage() {
     <div>
       <PageHero
         eyebrow="Khảo sát đồng hành cùng trẻ"
-        title="Khảo sát để nhận lộ trình phù hợp cho trẻ"
-        description="Khảo sát này là bước đầu nhẹ nhàng để phụ huynh hiểu rõ hơn về những điểm trẻ đang phát triển tốt và những lĩnh vực nên được hỗ trợ thêm."
+        title="Khảo sát hôm nay, đồng hành dài lâu"
+        description="Chỉ với vài phút khảo sát, phụ huynh sẽ có cái nhìn tổng quan về sự phát triển của trẻ và nhận những gợi ý phù hợp với nhu cầu của con"
         actions={[
           <Button key="contact" as={Link} to="/contact" variant="outline-primary">Liên hệ tư vấn</Button>,
         ]}

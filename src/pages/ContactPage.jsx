@@ -237,8 +237,8 @@ function ContactPage() {
           <Card className="border-0 rounded-4 shadow-soft mb-4">
             <Card.Body>
               <p className="text-primary fw-semibold mb-2">Hỗ trợ trực tiếp</p>
-              <h2 className="h4 fw-bold mb-2">Nếu AI không giải quyết được, bạn vẫn có thể liên hệ chuyên gia ngay</h2>
-              <p className="text-muted mb-3">AI của chúng tôi có thể gợi ý nhanh, nhưng nếu bạn cần tư vấn sâu hơn, hãy sử dụng các kênh sau.</p>
+              <h2 className="h4 fw-bold mb-2">Mỗi trẻ là một hành trình riêng, hãy để chuyên gia đồng hành cùng gia đình bạn</h2>
+              <p className="text-muted mb-3">Đội ngũ chuyên gia của Nghe Con Lớn luôn sẵn sàng lắng nghe, giải đáp thắc mắc và đồng hành cùng gia đình trong hành trình phát triển của trẻ</p>
               <div className="d-flex flex-wrap gap-2">
                 <Button as="a" href="/contact" variant="primary">Đăng ký tư vấn</Button>
                 <Button as="a" href={`https://zalo.me/${phoneDigits}`} variant="outline-primary">Chat Zalo</Button>
