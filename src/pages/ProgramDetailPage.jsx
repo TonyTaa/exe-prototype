@@ -35,9 +35,16 @@ function ProgramDetailPage() {
         image={program.image}
         imageAlt={program.title}
       >
-        <Link to="/programs" className="text-decoration-none text-primary fw-semibold">
-          ← Quay lại danh sách chương trình
-        </Link>
+        <AppButton
+          as={Link}
+          to="/programs"
+          variant="outline-primary"
+          size="md"
+          className="mb-4 mt-4"
+        >
+          <i className="bi bi-arrow-left me-2"></i>
+          Quay lại danh sách chương trình
+        </AppButton>
       </PageHero>
 
       {/* Quick Info */}

@@ -304,16 +304,14 @@ p { margin-bottom: 0; }
   background: rgba(255, 255, 255, 0.86);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(233, 216, 214, 0.85) !important;
-  padding-top: 0.65rem;
-  padding-bottom: 0.65rem;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
 }
 
 .app-header-container {
   min-height: 92px;
   align-items: center;
   gap: 1rem;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
 }
 
 .app-header-brand {
@@ -322,6 +320,27 @@ p { margin-bottom: 0; }
   color: var(--color-text-primary) !important;
   letter-spacing: -0.02em;
   flex-shrink: 0;
+  padding: 0;
+  margin-right: 1rem;
+}
+
+.app-header-logo {
+  width: 200px;
+  height: 150px;
+  max-height: fit-content;
+  object-fit: contain;
+  display: block;
+}
+
+.app-header-nav {
+  gap: 0.9rem;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.app-header-brand:hover .app-header-logo,
+.app-header-brand:focus-visible .app-header-logo {
+  opacity: 0.92;
 }
 
 .brand-mark {
